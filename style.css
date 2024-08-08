@@ -1,0 +1,83 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+.element {
+    color: rgb(47, 35, 158); 
+  
+    /* Default text color */
+
+body {
+    /* background-color: rgb(22, 12, 31); */
+    
+    /* color: aquamarine; */
+    /* background-color: slateblue; */
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(13, 13, 63); */
+    /* background-image: url('5172658.jpg'); */
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(4, 4, 32)
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    /* text-decoration: none; */
+}
+nav ul li{
+    /* text-decoration: none; */
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+   text-decoration:none;
+   /* color: aquamarine; */
+}
+nav ul li a:hover{
+   /* text-decoration: none; */
+   /* color: rgb(230, 226, 15); */
+   font-size: 20px;
+   text-decoration:none;
+   color: rgb(2, 0, 0);
+}
+.left
+{
+    font-size: 2rem;
+}
+.firstsec
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.firstsec > div
+{
+   width: 30%;
+}
+.leftsec{
+    /* background-color: red; */
+    width: 40px;
+    /* padding-top: 12%; */
+    font-size: 3rem;
+}
+.rightsec img{
+     width: 100%;
+     /* text-decoration: none; */
+                /* background-color: red; */
+    
+}
+/*  */
+
+
+.purple{
+    color: rgb(93, 60, 199);
+    font-weight: bold;
+    
+} 

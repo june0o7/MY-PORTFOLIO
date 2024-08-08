@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+<title>contact with me</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+}
+  body {
+    /* background-color:#291a41; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url('triangles-1430105_1920.png'); */
+    background-size: cover;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(4, 4, 32);
+    z-index: 1000; /* Ensure the header is above other content */
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav ul li a:hover {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(2, 0, 0);
+  }
+
+  .left {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .container {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container{
+    /* padding-right: 70%; */
+    position: relative;
+        left: -100px;
+        top: 10px;
+        right: 200px;
+  }
+
+  .container input[type="text"],
+  .container input[type="password"],
+  .container input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    /* border-radius: 10% ; */
+    box-sizing: border-box;
+    
+  }
+
+  .container input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .emage img
+  {
+    position: absolute;
+        left: 15%;
+        top: 30%;
+       
+        transform: translateY(-50%);
+        width: 200px; 
+        height: 200px; 
+        border-radius: 50%; 
+        overflow: hidden; 
+  }
+ h1{
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-right: 550px;
+   
+  }
+  
+
+
+ 
+</style>
+</head>
+<body >
+  <header>
+       
+    <nav>
+        <div class="left">Rajdeep pal</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">services</li>
+
+                <li><a href="form.html">Contact me</a></li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+
+<h1>Let's start a project together.</h1>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element2', {
+          strings: ["Let's start a project together..." ],
+          typeSpeed: 100,
+        });
+      </script>
+  <div class="emage">  
+  <img src="WhatsApp.jpg" >
+  
+</div>
+  <div class="container">
+   
+    <h2>Just fill & Chill</h2>
+    <form action="your_backend_login_endpoint" method="POST">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Rajdeep" required>
+
+      <label for="email">email:</label>
+      <input type="text"  name="mail" placeholder="raj60@gmail.com" required>
+      
+      <label for="ph_no">ph_no:</label>
+      <input type="text"  name="ph_no" required>
+
+      <label for="Name of Organization">Name of Organization:</label>
+      <input type="text" id="Name of Organization" name="Name of Organization" placeholder="BCCI ~" required>
+
+
+
+      <label for="problems">services:</label>
+      <input type="text"  name="problems" placeholder="tell me what services are you looking for ..."required>
+
+      
+
+
+
+
+      <input type="submit" value="submit">
+    </form>
+  </div>
+</body>
+</html>
